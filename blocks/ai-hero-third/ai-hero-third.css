@@ -1,0 +1,69 @@
+
+.ai-hero-third-container .ai-hero-third-wrapper {
+  max-width: unset;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  position: relative;
+}
+
+.ai-hero-third {
+  width: 100%;
+  height: 100%; /* Ensure it takes full height */
+  padding: 20px; /* Adjust padding as necessary */
+  min-height: 300px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('./media_1af0f6cdfea5bc7de55f55acf9a832682681c412b.jpeg?width=2000&format=jpeg&optimize=medium');
+  background-size: cover;
+  background-position: center;
+  border: none; /* Remove any border */
+}
+
+.ai-hero-third > div {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--background-color);
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ai-hero-third > div h2,
+.ai-hero-third > div p {
+  margin: 0; /* Remove default margins */
+  color: var(--background-color);
+}
+
+.icon {
+  position: absolute;
+  bottom: 20px; /* Adjust bottom position as necessary */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px; /* Adjust size as necessary */
+  height: 50px; /* Adjust size as necessary */
+  border-radius: 50%;
+  background-color: #f0f0f0; /* Light gray background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon::before {
+  content: '↓'; /* Or use an actual image/arrow icon */
+  font-size: 24px; /* Adjust size as necessary */
+  color: #cccccc; /* Light gray color */
+}
+
+@media (min-width: 900px) {
+  .ai-hero-third {
+    padding: 40px 32px;
+  }
+}
