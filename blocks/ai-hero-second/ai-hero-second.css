@@ -26,7 +26,7 @@ main > .section > div.ai-hero-second-wrapper {
     padding: 3.5rem; /* Add padding inside the white box */
     text-align: right; /* Align text to the right */
     z-index: 1; /* Ensure the text is above the image */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%); /* Optional: Add a subtle shadow */
     width: 40rem; /* Set the width of the white box */
 }
 
@@ -39,6 +39,6 @@ main > .section > div.ai-hero-second-wrapper {
 
 .ai-hero-second p {
     font-size: 1.4rem;
-    color: hsl(0, 50%, 25%);
+    color: hsl(0deg 50% 25%);
     text-align: left;
 }

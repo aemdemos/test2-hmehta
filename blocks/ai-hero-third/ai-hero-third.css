@@ -24,7 +24,7 @@ main > .section > div.ai-hero-third-wrapper {
     background-color: white; /* White box around the text */
     padding: 3.5rem; /* Add padding inside the white box */
     z-index: 1; /* Ensure the text is above the image */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%); /* Optional: Add a subtle shadow */
     width: 40rem; /* Set the width of the white box */
 }
 
@@ -37,6 +37,6 @@ main > .section > div.ai-hero-third-wrapper {
 
 .ai-hero-third p {
     font-size: 1.4rem;
-    color: hsl(0, 50%, 25%);
+    color: hsl(0deg 50% 25%);
     text-align: left;
 }

@@ -14,7 +14,7 @@
 
 /* Style for paragraphs */
 .ai-mission.block p {
-    color: hsl(0, 50%, 25%);
+    color: hsl(0deg 50% 25%);
     font-size: 1.4rem; /* Adjust size as needed */
     margin: 0; /* Remove default margin */
     padding: 5px 0; /* Add padding for spacing */
