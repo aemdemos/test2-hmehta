@@ -59,10 +59,10 @@
 .icon::before {
   content: '↓'; /* Or use an actual image/arrow icon */
   font-size: 24px; /* Adjust size as necessary */
-  color: #cccccc; /* Light gray color */
+  color: #ccc; /* Light gray color */
 }
 
-@media (min-width: 900px) {
+@media (width >= 900px) {
   .ai-hero-third {
     padding: 40px 32px;
   }
