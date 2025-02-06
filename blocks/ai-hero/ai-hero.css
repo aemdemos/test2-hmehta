@@ -1,48 +1,32 @@
-
-.ai-hero-wrapper {
-  max-width: unset;
-  padding: 0;
-  width: 100%;
-  height: 100vh; /* Ensure the container takes full viewport height */
-  position: relative; /* To position the image absolutely within this container */
-  overflow: hidden; /* Hide any overflow */
+main > .section > div.ai-hero-wrapper {
+    max-width: none;
+    padding: 0;
+    width: 100%;
 }
 
 .ai-hero {
-  display: flex;
-  flex-direction: row; /* Ensure the elements are side by side */
-  justify-content: center; /* Center the content horizontally */
-  align-items: center; /* Center the content vertically */
-  width: 100%;
-  height: 100%; /* Ensure the hero takes full height */
-  position: relative;
+    position: relative;
+    overflow: hidden; /* Hide any overflow */
 }
 
-.ai-hero > div:first-child {
-  flex: 1;
-  order: 1; /* Ensure the image is on the left */
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.ai-hero picture {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Ensure the image covers the container */
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
+.ai-hero picture,
 .ai-hero img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Ensure the image covers the container */
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the container */
 }
 
 .ai-hero > div:last-child {
-  display: none; /* Hide the inner divs containing text */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the text */
+    text-align: center; /* Center the text horizontally */
+    z-index: 1; /* Ensure the text is above the image */
+    color: white; /* Adjust text color as needed */
+}
+
+.ai-hero h1,
+.ai-hero p {
+    margin-bottom: 4rem; /* Adjust the value as needed */
 }

@@ -34,9 +34,10 @@ header nav .nav-hamburger {
 
 /* Ensuring the brand logo is on the left */
 header .nav-brand {
+    padding-top: 1rem;
   order: 1;
   flex-basis: 128px;
-  font-size: var(--heading-font-size-s);
+  font-size: var(--heading-font-size-l);
   font-weight: 700;
   line-height: 1;
   display: flex;

@@ -1,51 +1,32 @@
 
-/* Ensure the wrapper takes up full width and centers its content */
-.ai-mission-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding: 20px; /* Optional padding for spacing */
-    box-sizing: border-box; /* Include padding in the element's total width and height */
-}
-
 /* Ensure the block is centered within the wrapper */
 .ai-mission.block > div {
-    display: flex;
-    flex-direction: column; /* Ensure elements are stacked vertically */
-    align-items: center; /* Center align all elements horizontally */
-    max-width: 800px; /* Optional max-width for readability */
     margin: auto; /* Center the block horizontally */
+    text-align: center;
 }
 
 /* Style for headings */
 #our-mission, #our-values {
-    font-size: 2em; /* Adjust size as needed */
+    font-size: 3rem; /* Adjust size as needed */
     font-weight: bold;
     margin-bottom: 8px; /* Adjust space below the heading */
 }
 
 /* Style for paragraphs */
 .ai-mission.block p {
-    font-size: 1em; /* Adjust size as needed */
+    color: hsl(0, 50%, 25%);
+    font-size: 1.4rem; /* Adjust size as needed */
     margin: 0; /* Remove default margin */
     padding: 5px 0; /* Add padding for spacing */
-    line-height: 1.5; /* Ensure consistent line spacing */
+    line-height: 1.8; /* Ensure consistent line spacing */
 }
 
 /* Style for strong elements within paragraphs */
 .ai-mission.block p strong {
-    font-weight: bold;
-    color: #800000; /* Adjust color as needed */
+    font-weight: 900;
 }
 
 /* Specific spacing for the 'Our Values' section */
 #our-values + p {
-    margin-top: 10px; /* Adjust spacing between 'Our Values' and its paragraph */
-}
-
-/* Specific spacing for each value line */
-#our-values + p br {
-    display: block;
-    margin-bottom: 3px; /* Adjust space between each line */
+    margin-top: 0.8rem; /* Adjust spacing between 'Our Values' and its paragraph */
 }
