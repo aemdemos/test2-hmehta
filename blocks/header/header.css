@@ -99,7 +99,7 @@ header nav .nav-tools {
   left: 0;
   background-color: white;
   padding: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgb(0 0 0 / 10%);
 }
 
 /* Displaying submenu on hover */
@@ -108,7 +108,7 @@ header nav .nav-tools {
 }
 
 /* Additional media query for responsive design */
-@media (min-width: 900px) {
+@media (width >= 900px) {
   header nav {
     display: flex;
     justify-content: space-between;
