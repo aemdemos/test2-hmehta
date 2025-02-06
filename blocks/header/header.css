@@ -77,7 +77,7 @@ header nav .nav-tools {
 }
 
 .header-wrapper .default-content-wrapper ul li {
-  margin: 0 10px; /* Adjust spacing between items as needed */
+  margin: 0 25px; /* Adjust spacing between items as needed */
   display: flex;
   align-items: center;
   position: relative; /* Needed for submenu positioning */
