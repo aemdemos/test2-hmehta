@@ -5,6 +5,12 @@
       "path": "/nav",
       "instances": [
         {
+          "url": "https://www.marutisuzukicommercial.com/",
+          "urlHash": "99001b4ad25202bf46ff215756af297f3717447b",
+          "uuid": "99001b4a-00-3e64bcd1fcc2d5941e46891a0e6bf014c2422c1f",
+          "xpath": "/html[1]/body[1]/div[1]/header[1]"
+        },
+        {
           "url": "https://www.marutisuzukicommercial.com/wagonr-tour-h3",
           "urlHash": "0322ae1fa1c5c6aa8198a725b777351487ad9428",
           "uuid": "0322ae1f-00-3e64bcd1fcc2d5941e46891a0e6bf014c2422c1f",
@@ -50,12 +56,6 @@
           "url": "https://www.marutisuzukicommercial.com/terms",
           "urlHash": "93a77dcb1224d03f343b285886c8d6b0e5ed77a1",
           "uuid": "93a77dcb-00-3e64bcd1fcc2d5941e46891a0e6bf014c2422c1f",
-          "xpath": "/html[1]/body[1]/div[1]/header[1]"
-        },
-        {
-          "url": "https://www.marutisuzukicommercial.com/",
-          "urlHash": "99001b4ad25202bf46ff215756af297f3717447b",
-          "uuid": "99001b4a-00-3e64bcd1fcc2d5941e46891a0e6bf014c2422c1f",
           "xpath": "/html[1]/body[1]/div[1]/header[1]"
         },
         {
